@@ -43,14 +43,14 @@
     <script src="{{ asset('style') }}/dist/js/pages/dashboard2.js"></script>
 </head>
 
-<body class="hold-transition light-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+<body class="hold-transition light-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed text-sm">
     <div class="wrapper">
 
         <!-- Preloader -->
-        <div class="preloader flex-column justify-content-center align-items-center">
+        {{-- <div class="preloader flex-column justify-content-center align-items-center">
             <img class="animation__wobble" src="{{ asset('style') }}/dist/img/AdminLTELogo.png" alt="AdminLTELogo"
                 height="60" width="60">
-        </div>
+        </div> --}}
 
         <!-- Navbar -->
         <nav class="main-header navbar navbar-expand navbar-dark">
@@ -198,7 +198,7 @@
         <!-- /.navbar -->
 
         <!-- Main Sidebar Container -->
-        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <aside class="main-sidebar sidebar-light-primary elevation-4">
             <!-- Brand Logo -->
             <a href="index3.html" class="brand-link">
                 <img src="{{ asset('style') }}/dist/img/AdminLTELogo.png" alt="AdminLTE Logo"
